@@ -39,6 +39,17 @@
 
 </head>
 <body class="font-manrope">
+     <nav class="flex justify-between px-10 py-5 items-center flex-col lg:flex-row md:flex-row bg-pink-300">
+           <div>
+            <img src="./images/cup.png" alt="">
+           </div>
+           <div class="flex list-none gap-10 cursor-pointer">
+                 <li>Home</li>
+                 <li>Price</li>
+                 <li>Contact</li>
+                 <li>Login</li>
+           </div>
+     </nav>
 
     <header>
         <section class="max-w-screen-lg mx-auto ">
@@ -197,7 +208,7 @@
        </div>
 
         <!-- card section -->
-        <div class="grid gap-10 grid-cols-2 md:grid-cols-2 lg:grid-cols-3 my-5">
+        <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-5">
           <!-- card 1 -->
           <div class="card  bg-base-100 shadow-xl p-3">
             <figure><img class="p-2" src="./images/news-1.png" alt="Shoes" /></figure>
@@ -251,8 +262,59 @@
 
     </main>
 
-    <footer>
+    <footer class="p-10 lg:p-20 bg-base-200 text-base-content w-full bg-pink-300" >
+            
 
+      <div class="flex justify-between ">
+         <img  class=" px-3 lg:pb-3"  src="./images/cup.png" alt="">
+         <p>
+            <span class="px-6  lg:px-4">Ready to get strated?</span>
+            <button class="btn btn-primary">Get Started</button>
+         </p>
+      </div>
+        <div class="footer    ">
+
+          <div>
+            <span class="footer-title">Services</span> 
+            <a class="link link-hover">Branding</a> 
+            <a class="link link-hover">Design</a> 
+            <a class="link link-hover">Marketing</a> 
+            <a class="link link-hover">Advertisement</a>
+          </div> 
+          <div>
+            <span class="footer-title">Company</span> 
+            <a class="link link-hover">About us</a> 
+            <a class="link link-hover">Contact</a> 
+            <a class="link link-hover">Jobs</a> 
+            <a class="link link-hover">Press kit</a>
+          </div> 
+          <div>
+            <span class="footer-title">Legal</span> 
+            <a class="link link-hover">Terms of use</a> 
+            <a class="link link-hover">Privacy policy</a> 
+            <a class="link link-hover">Cookie policy</a>
+          </div> 
+          <div>
+            <span class="footer-title">Newsletter</span> 
+            <div class="form-control w-80">
+              <label class="label">
+                <span class="label-text">Enter your email address</span>
+              </label> 
+              <div class="relative">
+                <input type="text" placeholder="username@site.com" class=" bg-transparent border-b-2 border-black outline-none py-4" /> 
+                <button class="btn btn-primary absolute top-0 right-0 rounded-l-none"><i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+          
+
+       
+
+        </div>
+
+        <div class="mt-4 text-center">
+          <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        </div>
 
     </footer>
     
